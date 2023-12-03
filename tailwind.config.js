@@ -6,6 +6,7 @@ export default {
       backgroundImage: {
         Email: "url('../src/assets/Mail.svg')",
         Menu: "url('../src/assets/Dropdown.svg')",
+        Arrow: "url('../src/assets/Arrow.svg')",
       },
     },
   },
