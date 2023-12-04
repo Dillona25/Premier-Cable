@@ -41,7 +41,7 @@ const Services = () => {
         </div>
 
         {/* card three */}
-        <div className="flex flex-col gap-[10px] items-center w-[90%] h-fit p-[10px] bg-white rounded-[20px]">
+        <div className="flex flex-col gap-[10px] items-center w-[90%] h-fit p-[10px] bg-white rounded-[20px] mb-[50px]">
           <div className="w-[100%] h-[200px] rounded-[20px] bg-gray-400"></div>
           <h1 className="font-[Poppins] text-[15px] font-semibold text-black text-center">
             FiberOptic splicing
