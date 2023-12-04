@@ -2,17 +2,16 @@
 import React from "react";
 
 //* Components
-import Nav from "./Components/Nav/Nav";
-import Hero from "./Components/Hero/Hero.jsx";
-
-//* Assets & images
-import Mail from "./assets/Mail.svg";
+import Nav from "./Components/Nav";
+import Hero from "./Components/Hero";
+import Services from "./Components/Services";
 
 function App() {
   return (
     <div>
       <Nav />
       <Hero />
+      <Services />
     </div>
   );
 }

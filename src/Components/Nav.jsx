@@ -1,7 +1,6 @@
 import { useState } from "react";
-import "../../App.css";
+import "../../src/App.css";
 import NavDropDown from "./NavDropDown";
-import Dropdown from "../../assets/Dropdown.svg";
 
 const Nav = () => {
   const [dropDown, setDropDown] = useState(true);
