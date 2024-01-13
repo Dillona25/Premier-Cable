@@ -1,9 +1,6 @@
-import Contact from "./Contact";
-
 const Footer = () => {
   return (
     <footer className="footer p-10 bg-base-200 text-base-content">
-      <Contact />
       <aside>
         <svg
           width="50"
@@ -38,7 +35,6 @@ const Footer = () => {
         </h1>
         <h2 className="font-[Poppins] text-[12px] text-white">Contact</h2>
         <h2 className="font-[Poppins] text-[12px] text-white">About us</h2>
-        <h2 className="font-[Poppins] text-[12px] text-white">Jobs</h2>
       </nav>
     </footer>
   );

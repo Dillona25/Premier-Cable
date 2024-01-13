@@ -1,6 +1,10 @@
 //* React tools
 import React from "react";
-
+import {
+  BrowserRouter,
+  Switch,
+  Route,
+} from "react-router-dom/cjs/react-router-dom.min";
 //* Components
 import Nav from "./Components/Nav";
 import Hero from "./Components/Hero";
@@ -10,13 +14,15 @@ import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <div className="bg-white">
-      <Nav />
-      <Hero />
-      <Services />
-      <Testimonials />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className="bg-white">
+        <Nav />
+        <Hero />
+        <Services />
+        <Testimonials />
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

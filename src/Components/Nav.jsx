@@ -21,9 +21,29 @@ const Nav = () => {
         <h1 className="font-[Poppins] text-[20px] text-black mt-[20px] mb-[10px] ml-[20px]">
           Premier Cable Services
         </h1>
+        <ul className="hidden md:flex gap-[50px] mr-[20px] mt-[10px]">
+          <div className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-black">
+            <li className="text-black font-[Poppins] text-[18px]">
+              Our Services
+            </li>
+          </div>
+          <div className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-black">
+            <li className="text-black font-[Poppins] text-[18px]">
+              Testimonials
+            </li>
+          </div>
+          <div className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-black">
+            <li className="text-black font-[Poppins] text-[18px]">Contact</li>
+          </div>
+          <div className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-black">
+            <li className="text-black font-[Poppins] text-[18px]">
+              Our Portfolio
+            </li>
+          </div>
+        </ul>
         <button
           onClick={handleOpenDropDown}
-          className={`bg-Menu h-[32px] w-[32px] mr-[20px] mt-[20px] mb-[10px] rotate ${
+          className={`bg-Menu h-[32px] w-[32px] mr-[20px] mt-[20px] mb-[10px] md:hidden rotate ${
             isRotated ? "active" : ""
           }`}
         ></button>

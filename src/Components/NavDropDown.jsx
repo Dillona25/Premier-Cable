@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const NavDropDown = () => {
   return (
     <>
@@ -7,23 +9,28 @@ const NavDropDown = () => {
       >
         <div className="flex gap-[5px] p-[10px] border-black border-b-[1px]">
           <button className="font-[Poppins] text-start text-black">
-            &#10137; Services
+            &#10137; Our Services
           </button>
         </div>
         <div className="flex gap-[5px] p-[10px] border-black border-b-[1px]">
           <button className="font-[Poppins] text-start text-black">
-            &#10137; Our Work
+            &#10137; Client Reviews
           </button>
         </div>
         <div className="flex gap-[5px] p-[10px] border-black border-b-[1px]">
-          <button className="font-[Poppins] text-start text-black">
-            &#10137;Client reviews
-          </button>
+          <Link to="/About" className="font-[Poppins] text-start text-black">
+            &#10137; About Us
+          </Link>
         </div>
         <div className="flex gap-[5px] p-[10px] border-black border-b-[1px]">
-          <button className="font-[Poppins] text-start text-black">
-            &#10137; About us
-          </button>
+          <Link to="/About" className="font-[Poppins] text-start text-black">
+            &#10137; Contact
+          </Link>
+        </div>
+        <div className="flex gap-[5px] p-[10px] border-black border-b-[1px]">
+          <Link to="/About" className="font-[Poppins] text-start text-black">
+            &#10137; Portfolio
+          </Link>
         </div>
       </div>
     </>
