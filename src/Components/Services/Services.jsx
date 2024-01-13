@@ -1,6 +1,6 @@
-import splice from "../images/splicing2.png";
-import testing from "../images/OTDR.jpeg";
-import ftth from "../images/FTTH.jpeg";
+import splice from "../../images/splicing2.png";
+import testing from "../../images/OTDR.jpeg";
+import ftth from "../../images/FTTH.jpeg";
 
 const Services = () => {
   return (
@@ -9,8 +9,8 @@ const Services = () => {
         Our services
       </h1>
       <p className="font-[Poppins] text-[12px] text-white text-center pb-[40px] mx-[30px] md:text-[15px] md:max-w-[600px] md:mx-auto">
-        Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar
-        elementum tempus hac tellus libero accumsan.
+        We offer a variety of services related to fiberoptics. With over 25
+        years of experience, there isnt much we cant do.
       </p>
       <div className="flex flex-col items-center gap-[20px] mx-[30px] md:flex-row pb-[100px]">
         {/* card one */}

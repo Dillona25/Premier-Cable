@@ -5,8 +5,8 @@ const Testimonials = () => {
         What our clients have said
       </h1>
       <p className="font-[Poppins] text-[12px] text-[#757575] text-center md:text-[15px] md:max-w-[600px] md:mx-auto">
-        Lorem ipsum dolor sit amet consectetur adipiscing elit semper dalar
-        elementum tempus hac tellus libero accumsan.
+        We take our work very seriously. Dont just take our portoflio into
+        consideration, see what our clients have said.
       </p>
       <div className="md:flex md:flex-row md:justify-center md:gap-[20px] md:mt-[20px]">
         <div className="md:w-[350px]">

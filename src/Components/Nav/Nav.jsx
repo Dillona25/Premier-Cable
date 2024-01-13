@@ -1,5 +1,6 @@
 import { useState } from "react";
-import "../../src/App.css";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import "../App/App.css";
 import NavDropDown from "./NavDropDown";
 
 const Nav = () => {
@@ -32,9 +33,12 @@ const Nav = () => {
               Testimonials
             </li>
           </div>
-          <div className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-black">
+          <Link
+            to="/contacts"
+            className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-black"
+          >
             <li className="text-black font-[Poppins] text-[18px]">Contact</li>
-          </div>
+          </Link>
           <div className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-black">
             <li className="text-black font-[Poppins] text-[18px]">
               Our Portfolio
