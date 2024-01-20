@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import "../App/App.css";
 import NavDropDown from "./NavDropDown";
+import logo from "../../images/Logo.png";
 
 const Nav = () => {
   const [dropDown, setDropDown] = useState(true);
@@ -39,8 +40,8 @@ const Nav = () => {
           >
             <li className="text-black font-[Poppins] text-[18px]">Contact</li>
           </Link>
-          <div className="self-center cursor-pointer hover:opacity-75 hover:border-b-[1px] hover:border-b-black">
-            <li className="text-black font-[Poppins] text-[18px]">
+          <div className="self-center cursor-pointer hover:opacity-75 bg-black py-2 px-5 rounded-[20px]">
+            <li className="font-[Poppins] text-[18px] text-white">
               Our Portfolio
             </li>
           </div>

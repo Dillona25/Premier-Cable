@@ -2,9 +2,9 @@ const Contact = () => {
   return (
     <div className="md:h-[100vh] md:flex md:justify-center md:items-center">
       <div>
-        <div className="flex flex-col md:flex-row gap-[50px] md:justify-center md:items-center font-[Poppins] text-black">
+        <div className="flex flex-col md:flex-row gap-[50px] md:justify-center font-[Poppins] text-black">
           <div className="flex flex-col md:w-[600px]">
-            <h1 className="mt-[50px] text-center md:text-left text-[30px] md:text-[50px] font-bold">
+            <h1 className=" text-center md:text-left text-[30px] md:text-[50px] font-bold">
               Lets Connect
             </h1>
             <span className="mx-auto md:m-0 text-center md:text-left text-[12px] md:text-[15px] max-w-[300px] md:max-w-[500px] mt-[20px]">
