@@ -1,35 +1,28 @@
+import BillArnold from "../../images/Bill Arnold.jpeg";
+
 const Contact = () => {
   return (
     <div className="md:h-[100vh] md:flex md:justify-center md:items-center">
       <div>
         <div className="flex flex-col md:flex-row gap-[50px] md:justify-center font-[Poppins] text-black">
-          <div className="flex flex-col md:w-[600px]">
-            <h1 className=" mt-[40px] text-center md:text-left text-[30px] md:text-[50px] font-bold">
+          <div className="flex flex-col px-[40px] md:w-[600px] md:px-0">
+            <h1 className="mt-[50px] text-center text-[#757575] text-[50px] md:text-[80px] md:mt-0 font-bold">
               Lets Connect
             </h1>
-            <span className="mx-auto md:m-0 text-center md:text-left text-[12px] md:text-[15px] max-w-[300px] md:max-w-[500px] mt-[20px]">
-              Do you have some fiberoptic work that needs done, or simply want
-              to connect? We would love to connect and possibly contract for
-              you.
+            <img
+              src={BillArnold}
+              alt="Owner Portrait"
+              className=" h-[300px] md:h-[400px] w-fit rounded-[10px] mt-[20px] mx-auto"
+            ></img>
+            <span className="text-[12px] mt-[10px] text-center">
+              William Arnold | Owner and Operator
             </span>
-            <h1 className="text-center text-[30px] md:text-left font-[Poppins] text-black font-bold md:text-[40px] mt-[50px] md:mt-[70px]">
-              Our Email
-            </h1>
-            <span className="text-center text-[12px] md:text-[15px] md:text-left mt-[20px]">
-              billarnold@premiercableservices.com
-            </span>
-            <span className="text-center text-[12px] md:text-[15px] md:text-left mt-[20px]">
-              (402)-750-9933
-            </span>
-            <h1 className="text-center text-[30px] md:text-left font-[Poppins] text-black font-bold md:text-[40px] mt-[50px] md:mt-[70px]">
-              Socials
-            </h1>
-            <span className="text-center text-[12px] md:text-[15px] md:text-left mt-[20px]">
-              LinkedIn
-            </span>
-            <span className="text-center text-[12px] md:text-[15px] md:text-left mt-[20px]">
-              Facebook
-            </span>
+            <p className="text-center mt-[15px] text-[14px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
           </div>
 
           <div className="h-full w-full md:w-fit px-[40px] md:p-0">
