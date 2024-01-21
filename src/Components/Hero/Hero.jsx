@@ -3,10 +3,12 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const Hero = () => {
   return (
-    <div className="mx-[30px] my-[100px] md:flex md:justify-center md:gap-[100px] md:items-center">
+    <div className="mx-[30px] my-[50px] md:my-[100px] md:flex md:justify-center md:gap-[100px] md:items-center">
       <div className="flex flex-col gap-[10px] md:gap-[20px] text-[#757575] font-[Poppins]">
-        <h1 className="text-[80px] font-bold">Premier Cable</h1>
-        <span className="text-[80px] mt-[-50px] text-[#8cb8f9] font-bold">
+        <h1 className="text-[80px] font-bold text-center leading-[80px] md:leading-none md:text-left">
+          Premier Cable
+        </h1>
+        <span className="text-[80px] mt-[-30px] text-center md:text-left md:mt-[-50px] text-[#8cb8f9] font-bold">
           Services
         </span>
         <p className="md:max-w-[500px] md:text-[15px] md:text-left">
@@ -35,7 +37,7 @@ const Hero = () => {
         <img
           src={splice}
           alt="image of splicing"
-          className="h-[425px] w-fit rounded-[10px]"
+          className="h-[300px] mt-[30px] md:mt-0 md:h-[425px] w-fit rounded-[10px]"
         ></img>
       </div>
     </div>
